@@ -1,0 +1,571 @@
+body{
+	font-family: "Helvetica";
+	font-size: 1em;
+	line-height: 1em;
+	background-color: rgb(238, 232, 195);
+}
+
+.hidden{
+	display: none;
+}
+
+#home, #bio, #portfolio, #map{
+	margin: 0 auto;
+}
+
+/* Header */ 
+#home{
+	width: 100%;
+	height: 50em;
+	background-color: black;
+	background-image: url("../images/header3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav{
+	width: 100%;
+	background-color: black;
+	overflow: auto;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+nav ul{
+	width: 70%;
+	margin: 0 auto;
+
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 0.6em;
+	float: right;
+	border-bottom: 2px solid black;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+nav ul li a{
+	font-size: 1.1em;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: right;
+	margin: 0.6em; 
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	text-decoration: none;
+}
+
+nav ul li:hover{
+	border-bottom: 2px solid rgb(238, 232, 195);
+	cursor: pointer;
+	color: rgb(238, 232, 195);
+}
+
+.heading{
+	width: 50%;
+	clear: fix;
+	margin: 0 auto;
+	padding-top: 8em;
+}
+
+.logo{
+	width: 50%;
+	margin: 0 25% 1em 25%;
+}
+
+h1{
+	font-size: 5em;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: white;
+	text-align: center;
+	margin-top: 0.3em;
+}
+
+h2{
+	width: 100%;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin-top: 1.2em;
+}
+
+
+/* Bio */
+#bio{
+	width: 100%;
+	min-height: 52em;
+	overflow: auto;
+}
+
+h3{
+	font-size: 2em;
+	font-weight: bold;
+	display: block;
+	clear: both;
+	margin: 3em 15% 1.5em 15%; 
+}
+
+.kaart{
+	width: 80%;
+	display: block;
+	margin: 2em auto;
+}
+
+.biotext{
+	width: 50%;
+	float: right;
+	margin-right: 15%;
+}
+
+h4{
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: left;
+	margin: 0.5em 0;
+}
+
+p{
+	line-height: 1.8em;
+	margin: 0.5em 0 1.5em 0;
+}
+
+.ads{
+	width: 15%;
+	float: left;
+	margin-left: 15%;
+	overflow: auto;
+}
+
+.ads img{
+	display: block;
+	clear: both;
+	width: 100%;
+	float: left;
+	margin-bottom: 2em;
+}
+
+
+
+/* Portfolio */
+#portfolio{
+	width: 100%;
+	min-height: 55em;
+	overflow: auto;
+	clear: fix;
+}
+
+#portfolio h3{
+	color: black;
+}
+
+.categorie{
+	width: 50%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.categorie ul{
+	overflow: auto;
+}
+
+.categorie ul li{
+	display: inline-block;
+	margin: 0 5%;
+	width: 100px;
+	height: 100px;
+	background-size: 100%;
+	border-radius: 50%;
+	border: 4px solid rgb(238, 232, 195);
+}
+
+#binnensporten{
+	background-image: url("../images/iconbinnen.png");
+}
+
+#buitensporten{
+	background-image: url("../images/iconbuiten.png");
+}
+
+#shops{
+	background-image: url("../images/iconshop.png");
+}
+
+#lichaam{
+	background-image: url("../images/iconlichaam.png");
+}
+
+.spots{
+	width: 22%;
+	height: 12em;
+	margin-right: 5%;
+	border-right: 1px solid black;
+	float: left;
+	font-size: 0.9em;
+}
+
+.binnensporten li{
+	color: rgb(213, 18, 36);
+}
+
+.shops li{
+	color: rgb(231, 65, 27);
+}
+
+.buitensporten li{
+	color: rgb(67, 159, 53);
+}
+
+.lichaam li{
+	color: rgb(0, 105, 180) ;
+}
+
+.content{
+	width: 70%;
+	margin: 1em 15% 0 15%;
+	color: black;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	float: left;
+}
+
+.spots ul{
+	margin-right: 5%;
+}
+
+.spots ul li{
+	padding: 0.1em;
+}
+
+.hotspottext{
+	width: 70%;
+	margin-top: 0.4em;
+	border: none;
+	/*padding: 0.1em;*/
+	float: left;
+	font-size: 0.9em;
+}
+
+.spots ul li:hover, .current{
+	border-bottom: 1px solid black;
+	cursor: pointer;
+}
+
+.categorie ul li:hover{
+	border: 4px solid black;
+	cursor: pointer;
+}
+
+.huidig{
+	border:none;
+	border: 4px solid black;
+}
+
+.hotspotfoto{
+	width: 32%;
+	padding-top: 15%;
+	background-color: grey;
+	background-size: cover;
+	margin: 18em auto 2em auto;
+}
+
+.BiSp1F{
+	background-image: url("../images/luchtbal.jpg");
+}
+
+.BiSp2F{
+	background-image: url("../images/parkloods.jpg");
+}
+.BiSp3F{
+	background-image: url("../images/sportoase.jpg");
+}
+.BiSp4F{
+	background-image: url("../images/ABA.jpg");
+}
+
+.BiSp5F{
+	background-image: url("../images/basicfit.jpg");
+}
+
+.BiSp6F{
+	background-image: url("../images/healthcity.jpg");
+}
+
+.BiSp7F{
+	background-image: url("../images/dojo.jpg");
+}
+
+
+
+
+.BuSp1F{
+	background-image: url("../images/spoornoord.jpg");
+}
+
+.BuSp2F{
+	background-image: url("../images/stuivenberg.jpg");
+}
+
+
+
+.Shop1F{
+	background-image: url("../images/decathlon.jpg");
+}
+
+.Shop2F{
+	background-image: url("../images/martial.jpg");
+}
+
+.Shop3F{
+	background-image: url("../images/flash.jpg");
+}
+
+
+.Lich1F{
+	background-image: url("../images/bfysio.jpg");
+}
+
+.Lich2F{
+	background-image: url("../images/sportoase.jpg");
+}
+
+.Lich3F{
+	background-image: url("../images/exki.jpg");
+}
+
+.Lich4F{
+	background-image: url("../images/denbox.jpg");
+	background-position: center;
+}
+
+.Lich5F{
+	background-image: url("../images/patellen.jpg");
+}
+
+
+
+/*Contact*/
+#map{
+	width: 100%;
+	height: 48em;
+	overflow: auto;
+}
+
+
+/*Footer*/
+#footer{
+	width: 100%;
+	background-color: black;
+	color: rgb(238, 232, 195);
+	overflow: auto;
+}
+
+#footer p{
+	width: 50%;
+	float: left;
+	line-height: 1em;
+	margin: 0.5em 0 0.5em 15%;
+}
+
+
+
+/*Responsive*/
+@media (max-width: 1500px){
+	.categorie{
+		width: 70%;
+		margin: 0 auto;
+		overflow: auto;
+	}
+
+	.categorie ul{
+		margin: 0 auto;
+	}
+
+	.hotspotfoto{
+		width: 50%;
+		padding-top: 35%;
+	}
+}
+
+@media (max-width: 1260px){
+	.spots{
+		width: 25%;
+		height: 12em;
+	}
+
+	.hotspottext{
+		width: 55%;
+	}
+
+	.hotspotfoto{
+		margin-top: 20em;
+	}
+}
+
+@media (max-width: 1100px){
+	.ads{
+		width: 70%;
+		margin-top: 2em;
+		margin-left: 15%;
+		overflow: auto;
+	}
+
+	.ad{
+		width: 45%;
+		padding-top: 51%;
+		margin: 0 1.5% 1em 1.5%;
+		background-color: grey;
+		float: left;
+	}
+
+	.categorie{
+		width: 500px;
+		margin: 0 auto;
+	}
+
+	.categorie ul li{
+		display: inline-block;
+		margin: 20px;
+		width: 75px;
+		height: 75px;
+		float: left;
+	}
+
+}
+
+@media (max-width: 1000px){
+	.heading{
+	width: 75%;
+	clear: fix;
+	margin: 0 auto;
+	padding-top: 8em;
+	}
+}
+
+@media (max-width: 900px){
+	.hotspotfoto{
+		margin-top: 22em;
+	}
+}
+
+@media (max-width: 800px){
+	.categorie ul li{
+		display: block;
+		margin: 20px;
+		width: 75px;
+		height: 75px;
+		float: left;
+	}
+	.hotspotfoto{
+		margin-top: 25em;
+	}
+}
+
+@media (max-width: 700px){
+	nav ul li{
+		display: block;
+		clear: both;
+		width: 25%;
+		text-align: right;
+		float: top-right;
+	}
+
+	nav ul li a{
+		text-align: right;
+	}
+
+	.heading{
+		width: 75%;
+		clear: fix;
+		margin: 0 auto;
+		padding-top: 15em;
+	}
+
+	#bio img{
+		width: 70%;
+		display: block;
+		float: left;
+		margin: 0 15% 5em 15%;
+	}
+
+	.biotext{
+		width: 70%;
+		float: right;
+		margin: 0 15%;
+	}
+	.hotspotfoto{
+		margin-top: 30em;
+	}
+}
+
+@media (max-width: 600px){
+	.categorie{
+		width: 250px;
+		margin: 0 auto;
+	}
+
+	.categorie ul li{
+		display: block;
+		margin: 20px;
+		width: 75px;
+		height: 75px;
+		float: left;
+	}
+
+	.hotspotfoto{
+		margin-top: 35em;
+	}
+}
+
+@media (max-width: 500px){
+	#bio img{
+		width: 90%;
+		display: block;
+		float: left;
+		margin: 0 5% 5em 5%;
+	}
+
+	.biotext{
+		width: 90%;
+		float: right;
+		margin: 0 5%;
+	}
+
+	.ads{
+		width: 90%;
+		margin: 2em 5% 0 5%;
+		overflow: auto;
+	}
+
+	.content{
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	/*.ad{
+		width: 67.5px;
+		height: 75px;
+		padding-top: 51%;
+		margin: 0 1.5% 1em 1.5%;
+		background-color: grey;
+		float: left;
+	} */
+}
